@@ -1,6 +1,4 @@
 
-fileInput = open("input.txt", "r")
-
-for line in fileInput:
-    print(line)
-fileInput.close()
+with open("input.txt", "r") as fileInput:
+    for line in fileInput:
+        print(line)
